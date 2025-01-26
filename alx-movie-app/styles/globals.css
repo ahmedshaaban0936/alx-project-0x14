@@ -1,0 +1,44 @@
+/* globals.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color and text color for the entire app */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa; /* Light gray background */
+    color: #333;  /* Dark text color */
+    line-height: 1.6;
+  }
+  
+  /* Provide a smooth transition for dark mode */
+  *,
+  *::before,
+  *::after {
+    transition: all 0.25s ease;
+  }
+  
+  /* You might want to use variables for colors or breakpoints in a future expansion */
+  :root {
+    --primary-color: #0070f3; /* Change this to your preferred primary color */
+    --text-color: #333;
+    --background-color: #fafafa;
+  }
+  
+  /* Handle anchor tags */
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+  
+  /* Add other base styles for the app (like for header/footer, forms, etc.) */
+  
